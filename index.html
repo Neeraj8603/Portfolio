@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charste="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content"width=device-width,initial-scale=1.0">
+	<title>Neeraj's Portfolio</title>
+	<style>
+		*{
+		margin:0;
+		padding:0;
+		}
+		body{
+			
+			background-image: url('bg.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size:cover;
+			color: rgb(255, 255, 255);		
+			}
+		nav{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+			height: 55px;
+			background-color: grey;
+			width:auto;
+		}
+		nav ul{
+			display: flex;
+			justify-content:center;
+		}
+		nav ul li{
+			list-style:none;
+			margin: 0 23px;
+		}
+		
+		nav ul li a{
+			text-decoration:none;
+			color:black;
+			}
+		nav ul li a:hover{
+			color:white;
+			font-size:1.05rem;
+			}
+
+		main hr{
+			border:0;
+			background: black;
+			height:1.7px;
+			margin:40px 100px;
+		}
+		.left{
+			font-size: 2rem}
+		.firstsection{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+			margin: 90px 0;}
+
+		.firstsection>div{
+			width:35%;}
+		.leftsection{
+			font-size: 3rem;
+			}
+		.leftsection .button{
+			padding:23px}
+		.leftsection .b1{
+			background-color:rgb(69, 150, 150);
+			border:2px solid:black;
+			border-radius:6px;
+			font-size:20px;
+			padding:5px;
+			cursor:pointer;
+			}
+		.leftsection .b2{
+			background-color:rgb(84, 155, 155);
+			border:2px solid:black;
+			border-radius:6px;
+			font-size:20px;
+			padding:5px;
+			cursor:pointer;
+			}
+		.rightsection img{
+			width: 280px;
+			height: 260px;
+			margin: 50px 0;
+			}
+	
+		.purple{
+			color:rgb(0, 0, 0);
+		
+		}
+		#element{
+			color:rgb(19, 10, 19);}
+
+		.secondsection{
+			max-width: 80vw;
+			margin: auto;
+			height: 80vh;
+			}
+		.sectionsection h1{
+			font-size:1.9rem;}
+		.green{
+			color:rgb(255, 255, 255);}
+		.secondsection .box{
+			background:black;
+			width:1000px;
+			height: 2px;
+			margin: 56px 0;
+			display:flex;
+		}
+
+		.secondsection .vertical{
+			background:black;
+			width:1.6px;
+			height: 150px;
+			margin: 0 120px;
+			font-size:1rem;
+			
+		
+		}
+		.secondsection .top{
+			margin:0;
+			padding:0;
+			height:40px;
+			width:50px;
+		}
+		
+		
+		footer{
+			background:grey;
+			text-align: center;
+		justify-content: center;}
+
+		.footer{
+			display:flex;
+			padding: 43px 122px;
+			justify-content:space-around;
+		}
+
+		.footer ul{
+			list-style:none;
+		}
+
+		.footer div{
+			width:233px;
+		}
+	</style>
+</head>
+<body >
+
+	<header>
+	<nav>
+		<div class="left">
+		<b>NEERAJ KUMAR NAYAK
+		</div>
+		<div class="right">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/">About</a><l/i>
+				<li><a href="/">Services</a></li>
+				<li><a href="/">Projects</a></li>
+				<li><a href="/">Contact Me</a></li>
+		</div>
+	</nav>
+	</header>
+	<main>
+		<section class="firstsection">
+			<div class="leftsection">
+			Hi my name is <span class="purple">Neeraj</span>
+			<div>and I am a passionate</div>
+			 <span id="element"></span>
+			<div class="button">
+			<button class="b1">Download Resume</button>
+			<button class="b2">Visit LinkedIN</button></div>
+			</div>
+			<div class="rightsection">
+			<img src="bg1.png"></img>
+			</div>
+		</section>
+		<hr>
+		<section class="secondsection">
+			<span class="green">Here you can see my Past</span>
+			<h1>Experiences
+			<div class="box">
+				<div class="vertical">
+				<img class="top" src="html.png"></img>
+				<div class="vertical-title">HTML Developer</div>
+				<div class="vertical-desc"></div>
+			</div>
+			<div class="vertical"><img class="top" src="java.png"></img><div class="vertical-title">JAVA Developer</div>
+			<div class="vertical-desc"></div></div>
+			<div class="vertical"><img class="top" src="fe.png"></img><div class="vertical-title">FRONT-END Developer</div>
+			<div class="vertical-desc"></div></div>
+			<div class="vertical"><img class="top" src="be.png"></img><div class="vertical-title">BACK-END Developer</div>
+			<div class="vertical-desc"></div></div>
+			</div>
+		</section>
+
+	</main>	
+	<footer>
+		<div class="footer">
+			<div classs="first"><h3>Neeraj Portfolio</h3></div>
+			<div class="zero"><ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Services</li>
+			</ul></div>
+			<div classs="second">
+				<ul>
+					<li>Twitter</li>
+					<li>Insta</li>
+					<li>Hike</li>
+				</ul>
+			</div>
+			<div classs="third">
+				<ul>
+					<li>link1</li>
+					<li>link2</li>
+					<li>link3</li>
+				</ul>
+			</div>
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	  <script>
+    	var typed = new Typed('#element', {
+     	 strings: ['Web Developer', 'Jobless', 'Hopeless'],
+     	 typeSpeed: 50,
+   	 });
+ 	 </script>
+</body>
+</html>
