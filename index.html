@@ -24,20 +24,22 @@
 			align-items:center;
 			height: 55px;
 			background-color: grey;
-			width:auto;
+			border-radius: 10px;
 		}
 		nav ul{
 			display: flex;
 			justify-content:center;
+			background-color: darkslategrey;
+			border-radius: 10px;
 		}
 		nav ul li{
 			list-style:none;
-			margin: 0 23px;
+			margin: 11px 20px;
 		}
 		
 		nav ul li a{
 			text-decoration:none;
-			color:black;
+			color:whitesmoke;
 			}
 		nav ul li a:hover{
 			color:white;
@@ -129,22 +131,53 @@
 		
 		
 		footer{
-			background:grey;
 			text-align: center;
-		justify-content: center;}
+		}
 
 		.footer{
 			display:flex;
 			padding: 43px 122px;
-			justify-content:space-around;
+			justify-content:space-evenly;
 		}
 
+		.footer h3{
+			color:black;
+		}
 		.footer ul{
 			list-style:none;
 		}
 
+		footer ul li a{
+			color:white;
+			text-decoration: none;
+			padding: 5px 54px;
+		}
+
+		footer ul li {
+			display: flex;
+			color:white;
+			background-color: darkslategrey;
+			text-decoration: none;
+			height: 30px;
+			border-radius: 10px;
+			margin:4px 10px;
+			justify-content: space-evenly;
+			
+			
+		}
+
+		footer ul li:hover{
+			color:whitesmoke;
+			font-size:1.2rem;
+			
+		}
+
 		.footer div{
 			width:233px;
+		}
+
+		.fourth{
+			margin: -30px; 0;
 		}
 	</style>
 </head>
@@ -157,11 +190,11 @@
 		</div>
 		<div class="right">
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/">About</a><l/i>
-				<li><a href="/">Services</a></li>
-				<li><a href="/">Projects</a></li>
-				<li><a href="/">Contact Me</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a><l/i>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
 		</div>
 	</nav>
 	</header>
@@ -202,30 +235,35 @@
 	</main>	
 	<footer>
 		<div class="footer">
-			<div classs="first"><h3>Neeraj Portfolio</h3></div>
+			<div classs="first"><h3>NEERAJ'S PORTFOLIO</h3></div>
 			<div class="zero"><ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Services</li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a><l/i>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
 			</ul></div>
 			<div classs="second">
 				<ul>
-					<li>Twitter</li>
-					<li>Insta</li>
-					<li>Hike</li>
+				<li><a href="/">Twitter</a></li>
+				<li><a href="/">Insta</a></li>
+				<li><a href="/">Hike</a></li>
+				<li><a href="/">Email</a></li>
+				<li><a href="/">WA</a></li>
 				</ul>
 			</div>
 			<div classs="third">
 				<ul>
-					<li>link1</li>
-					<li>link2</li>
-					<li>link3</li>
+					<li><a href="/">Link 1</a></li>
+					<li><a href="/">Link 2</a></li>
+					<li><a href="/">Link 3</a></li>
 				</ul>
-			</div>
+			</div></div>
+			<div class="fourth">All rigths are reserved ©</div>
 	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 	  <script>
     	var typed = new Typed('#element', {
-     	 strings: ['Web Developer', 'Jobless', 'Hopeless'],
+     	 strings: ['Web Developer', 'Front-End Developer', 'Video Editor'],
      	 typeSpeed: 50,
    	 });
  	 </script>
