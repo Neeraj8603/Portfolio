@@ -1,7 +1,8 @@
 @media screen and (max-width: 1000px) {
-    html {
-        scroll-behavior: smooth;
-        margin:auto;
+    body {
+        scroll-behavior:smooth;
+        height: max-content;
+        width: max-content;
     }
 
     nav {
