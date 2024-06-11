@@ -1,42 +1,60 @@
 @media screen and (max-width: 1000px) {
-    nav{
-        height: 6rem;
-        margin: 15px 10px;
+    html {
+        scroll-behavior: smooth;
+        margin:auto;
     }
 
-    .right{
+    nav {
+        height: 6rem;
+        margin:auto;
+    }
+
+    .left{
+        text-align: center;
+    }
+
+    .right {
         display: none;
     }
 
-    .firstsection{
+    .firstsection {
         display: flex;
         height: 95vh;
         margin-bottom: 2rem;
     }
 
-    .leftsection{
+    .leftsection {
         font-size: 6rem;
         margin-left: 100px;
     }
 
-    b{
-        font-size: 4rem;
+    b {
+        font-size: 3rem;
     }
 
-    .button{
-        
-    }
-
-    .rightsection{
+    .rightsection {
         height: max-content;
+        margin-left: auto;
     }
 
-    .secondsection{
+    .secondsection {
         height: 40vh;
         max-width: 95vh;
+
     }
 
-    .leftsection .button{
-        padding:40px}
-}
+    .leftsection .button {
+        padding: 40px
+    }
 
+    footer{
+        height: auto;
+        width: auto;
+        font-size: 1.7rem;
+
+    }
+
+    .fourth{
+        margin: auto;  
+    }
+}
